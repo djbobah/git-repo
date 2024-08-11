@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.h {
+  font-family: Roboto;
+
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66px;
+
+  text-align: center;
+  color: #4f4f4f;
+}
+.main {
+  height: calc(100% - 112px);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  height: 100%;
+}

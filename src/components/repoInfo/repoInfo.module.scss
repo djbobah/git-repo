@@ -1,0 +1,18 @@
+.container {
+  width: 480px;
+  background-color: #f2f2f2;
+  height: 100%;
+}
+
+.emptySelRepo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleForEmpty {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
